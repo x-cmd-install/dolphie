@@ -1,11 +1,13 @@
 about:
-  description: Your single pane of glass for real-time analytics into MySQL/MariaDB & ProxySQL
+  description:
+  |
+    Your single pane of glass for real-time analytics into MySQL/MariaDB & ProxySQL
   license: GPL-3.0
   homepage: https://pypi.org/project/dolphie/
   head: df673eb
   archived: false
   latestVersion: 6.15.0
-  collectedAt: 2026-09-03T05:26:10Z
+  collectedAt: 2026-09-03T22:34:31Z
 timeline:
   created: 2022-09-05
   lastCommit: 2026-08-24
@@ -21,7 +23,7 @@ popularity:
 language:
   Python: 896509
   Dockerfile: 240
-totalLine: 896749
+totalBytes: 896749
 recent:
   last30d:
     since: 2026-08-04
