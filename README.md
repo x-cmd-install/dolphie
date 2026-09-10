@@ -12,6 +12,17 @@ Your single pane of glass for real-time analytics into MySQL/MariaDB & ProxySQL
 x install dolphie
 ```
 
+## Code insight
+
+Total: **18,345** lines of code across **73** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Python | 18,224 | 825 | 3,223 | 70 |
+| Toml | 116 | 8 | 21 | 1 |
+| Dockerfile | 5 | 1 | 2 | 1 |
+| Markdown | 0 | 247 | 69 | 1 |
+
 ## Source
 
 - **Upstream**: <https://github.com/charles-001/dolphie>
@@ -36,19 +47,19 @@ x install dolphie
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 1 | 1 | 0 | 0 | 2 |
+| last60d | 2026-07-12 | 0 | 2 | 1 | 0 | 0 | 2 |
 | 90d | 2026-06-12 | 0 | 2 | 1 | 0 | 0 | 2 |
+| last180d | 2026-03-14 | 2 | 4 | 1 | 2 | 0 | 15 |
 | 360d | 2025-09-15 | 13 | 4 | 1 | 10 | 0 | 57 |
+| last720d | 2024-09-20 | 33 | 18 | 1 | 35 | 1 | 135 |
 
-## Code size
+## Distribution status
 
-Total: **18,345** lines of code across **73** files in the top 5 languages.
+Reported by **2** distros on [repology.org](https://repology.org/project/dolphie). **2** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Python | 18,224 | 825 | 3,223 | 70 |
-| Toml | 116 | 8 | 21 | 1 |
-| Dockerfile | 5 | 1 | 2 | 1 |
-| Markdown | 0 | 247 | 69 | 1 |
+| Distro | Version | Status |
+|--------|---------|--------|
+| Homebrew | `6.15.0` | ✅ latest |
 
 ## Improve this data
 
@@ -59,4 +70,4 @@ Install metadata for dolphie lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T17:04:29Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:30:25Z._
