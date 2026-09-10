@@ -4,7 +4,7 @@
 
 Your single pane of glass for real-time analytics into MySQL/MariaDB & ProxySQL
 
-![dolphie](https://repo.x-cmd.io/dolphie.svg)
+![dolphie](https://repo.x-cmd.io/dolphie.svg?lang=zh)
 
 ## 安装
 
@@ -22,11 +22,10 @@ x install dolphie
 
 - **最新版本**: `6.15.0` (2026-06-04)
 - **最近提交**: 2026-08-24
-- **发布时间**: 2026-06-04T15:47:07Z
 
 ## 流行度
 
-- **Star**: 1,196 · **Fork**: 80 · **开放 issue**: 81 · **贡献者**: 11
+- **Star**: 1,195 · **Fork**: 80 · **开放 issue**: 81 · **贡献者**: 11
 
 ## 累计统计
 
@@ -60,4 +59,4 @@ dolphie 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:33:45Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T17:04:29Z._
