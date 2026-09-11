@@ -2,8 +2,8 @@
   srcname: dolphie
   binname: dolphie
   visiblename: dolphie
-  version: 6.15.0
-  origversion: 6.15.0-1
+  version: 6.16.0
+  origversion: 6.16.0-1
   status: newest
   summary: Your single pane of glass for real-time analytics into MySQL/MariaDB & ProxySQL
   maintainers:
@@ -15,5 +15,5 @@
   visiblename: dolphie
   version: 6.15.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Feature-rich top tool for monitoring MySQL
