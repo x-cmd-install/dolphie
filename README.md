@@ -14,14 +14,15 @@ x install dolphie
 
 ## Code insight
 
-Total: **18,345** lines of code across **73** files in the top 5 languages.
+Total: **21,391** lines of code across **102** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 18,224 | 825 | 3,223 | 70 |
-| Toml | 116 | 8 | 21 | 1 |
-| Dockerfile | 5 | 1 | 2 | 1 |
-| Markdown | 0 | 247 | 69 | 1 |
+| Python | 19,917 | 913 | 3,601 | 84 |
+| Yaml | 943 | 15 | 43 | 6 |
+| Sh | 322 | 49 | 71 | 10 |
+| Toml | 133 | 8 | 23 | 1 |
+| JavaScript | 71 | 12 | 12 | 1 |
 
 ## Source
 
@@ -31,8 +32,8 @@ Total: **18,345** lines of code across **73** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `6.15.0` (2026-06-04)
-- **Last commit**: 2026-08-24
+- **Latest**: `6.16.0` (2026-09-11)
+- **Last commit**: 2026-09-11
 
 ## Popularity
 
@@ -40,26 +41,26 @@ Total: **18,345** lines of code across **73** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 78 · **Merged PRs**: 39 · **Open PRs**: 1 · **Closed issues**: 80 · **Open issues**: 1 · **Commits**: 383
+- **Releases**: 79 · **Merged PRs**: 40 · **Open PRs**: 0 · **Closed issues**: 80 · **Open issues**: 1 · **Commits**: 386
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 1 | 1 | 0 | 0 | 2 |
-| last60d | 2026-07-12 | 0 | 2 | 1 | 0 | 0 | 2 |
-| 90d | 2026-06-12 | 0 | 2 | 1 | 0 | 0 | 2 |
-| last180d | 2026-03-14 | 2 | 4 | 1 | 2 | 0 | 15 |
-| 360d | 2025-09-15 | 13 | 4 | 1 | 10 | 0 | 57 |
-| last720d | 2024-09-20 | 33 | 18 | 1 | 35 | 1 | 135 |
+| 30d | 2026-08-12 | 1 | 2 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-13 | 1 | 3 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-13 | 1 | 3 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-15 | 3 | 5 | 0 | 2 | 0 | 0 |
+| 360d | 2025-09-16 | 14 | 5 | 0 | 10 | 0 | 0 |
+| last720d | 2024-09-21 | 34 | 19 | 0 | 35 | 1 | 138 |
 
 ## Distribution status
 
-Reported by **2** distros on [repology.org](https://repology.org/project/dolphie). **2** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
+Reported by **2** distros on [repology.org](https://repology.org/project/dolphie). **1** are ✅ on the latest upstream release, **1** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Homebrew | `6.15.0` | ✅ latest |
+| Homebrew | `6.15.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -70,4 +71,4 @@ Install metadata for dolphie lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:27:53Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:22:53Z._
