@@ -13,7 +13,7 @@
 - repo: homebrew
   srcname: dolphie
   visiblename: dolphie
-  version: 6.15.0
+  version: 6.16.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Feature-rich top tool for monitoring MySQL
