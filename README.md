@@ -14,11 +14,11 @@ x install dolphie
 
 ## Code insight
 
-Total: **21,391** lines of code across **102** files in the top 5 languages.
+Total: **22,619** lines of code across **104** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 19,917 | 913 | 3,601 | 84 |
+| Python | 21,145 | 1,010 | 3,823 | 86 |
 | Yaml | 943 | 15 | 43 | 6 |
 | Sh | 322 | 49 | 71 | 10 |
 | Toml | 133 | 8 | 23 | 1 |
@@ -32,8 +32,8 @@ Total: **21,391** lines of code across **102** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `6.16.0` (2026-09-11)
-- **Last commit**: 2026-09-11
+- **Latest**: `6.17.1` (2026-09-14)
+- **Last commit**: 2026-09-15
 
 ## Popularity
 
@@ -41,18 +41,18 @@ Total: **21,391** lines of code across **102** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 79 · **Merged PRs**: 40 · **Open PRs**: 1 · **Closed issues**: 80 · **Open issues**: 1 · **Commits**: 386
+- **Releases**: 80 · **Merged PRs**: 42 · **Open PRs**: 0 · **Closed issues**: 80 · **Open issues**: 1 · **Commits**: 389
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 1 | 1 | 1 | 0 | 0 | 4 |
-| last60d | 2026-07-16 | 1 | 2 | 1 | 0 | 0 | 5 |
-| 90d | 2026-06-16 | 1 | 3 | 1 | 0 | 0 | 5 |
-| last180d | 2026-03-18 | 2 | 5 | 1 | 1 | 0 | 17 |
-| 360d | 2025-09-19 | 14 | 5 | 1 | 10 | 0 | 60 |
-| last720d | 2024-09-24 | 34 | 19 | 1 | 35 | 1 | 138 |
+| 30d | 2026-08-16 | 2 | 3 | 0 | 0 | 0 | 7 |
+| last60d | 2026-07-17 | 2 | 4 | 0 | 0 | 0 | 8 |
+| 90d | 2026-06-17 | 2 | 5 | 0 | 0 | 0 | 8 |
+| last180d | 2026-03-19 | 3 | 7 | 0 | 1 | 0 | 20 |
+| 360d | 2025-09-20 | 15 | 7 | 0 | 10 | 0 | 63 |
+| last720d | 2024-09-25 | 35 | 21 | 0 | 35 | 1 | 141 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for dolphie lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T05:54:22Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T05:46:41Z._
