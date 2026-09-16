@@ -14,11 +14,11 @@ x install dolphie
 
 ## Code insight
 
-Total: **22,619** lines of code across **104** files in the top 5 languages.
+Total: **22,765** lines of code across **104** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 21,145 | 1,010 | 3,823 | 86 |
+| Python | 21,291 | 1,020 | 3,856 | 86 |
 | Yaml | 943 | 15 | 43 | 6 |
 | Sh | 322 | 49 | 71 | 10 |
 | Toml | 133 | 8 | 23 | 1 |
@@ -32,27 +32,27 @@ Total: **22,619** lines of code across **104** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `6.17.1` (2026-09-14)
+- **Latest**: `6.18.0` (2026-09-15)
 - **Last commit**: 2026-09-15
 
 ## Popularity
 
-- **Stars**: 1,195 · **Forks**: 81 · **Open issues**: 81 · **Contributors**: 11
+- **Stars**: 1,196 · **Forks**: 81 · **Open issues**: 81 · **Contributors**: 11
 
 ## Totals (cumulative)
 
-- **Releases**: 80 · **Merged PRs**: 42 · **Open PRs**: 0 · **Closed issues**: 80 · **Open issues**: 1 · **Commits**: 389
+- **Releases**: 81 · **Merged PRs**: 43 · **Open PRs**: 0 · **Closed issues**: 80 · **Open issues**: 1 · **Commits**: 391
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 2 | 3 | 0 | 0 | 0 | 7 |
-| last60d | 2026-07-17 | 2 | 4 | 0 | 0 | 0 | 8 |
-| 90d | 2026-06-17 | 2 | 5 | 0 | 0 | 0 | 8 |
-| last180d | 2026-03-19 | 3 | 7 | 0 | 1 | 0 | 20 |
-| 360d | 2025-09-20 | 15 | 7 | 0 | 10 | 0 | 63 |
-| last720d | 2024-09-25 | 35 | 21 | 0 | 35 | 1 | 141 |
+| 30d | 2026-08-17 | 3 | 4 | 0 | 0 | 0 | 9 |
+| last60d | 2026-07-18 | 3 | 5 | 0 | 0 | 0 | 10 |
+| 90d | 2026-06-18 | 3 | 6 | 0 | 0 | 0 | 10 |
+| last180d | 2026-03-20 | 4 | 8 | 0 | 1 | 0 | 22 |
+| 360d | 2025-09-21 | 16 | 8 | 0 | 10 | 0 | 65 |
+| last720d | 2024-09-26 | 36 | 21 | 0 | 35 | 1 | 143 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for dolphie lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T05:46:41Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T05:45:15Z._
