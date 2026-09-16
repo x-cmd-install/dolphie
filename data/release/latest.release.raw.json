@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/charles-001/dolphie/releases/388710580",
-  "assets_url": "https://api.github.com/repos/charles-001/dolphie/releases/388710580/assets",
-  "upload_url": "https://uploads.github.com/repos/charles-001/dolphie/releases/388710580/assets{?name,label}",
-  "html_url": "https://github.com/charles-001/dolphie/releases/tag/6.17.1",
-  "id": 388710580,
+  "url": "https://api.github.com/repos/charles-001/dolphie/releases/388921903",
+  "assets_url": "https://api.github.com/repos/charles-001/dolphie/releases/388921903/assets",
+  "upload_url": "https://uploads.github.com/repos/charles-001/dolphie/releases/388921903/assets{?name,label}",
+  "html_url": "https://github.com/charles-001/dolphie/releases/tag/6.18.0",
+  "id": 388921903,
   "author": {
     "login": "charles-001",
     "id": 13244625,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOH8BJyM4XK0C0",
-  "tag_name": "6.17.1",
+  "node_id": "RE_kwDOH8BJyM4XLnov",
+  "tag_name": "6.18.0",
   "target_commitish": "main",
-  "name": "6.17.1",
+  "name": "6.18.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-15T01:35:05Z",
-  "updated_at": "2026-09-15T01:35:33Z",
-  "published_at": "2026-09-14T21:01:09Z",
+  "created_at": "2026-09-15T06:49:47Z",
+  "updated_at": "2026-09-15T06:50:20Z",
+  "published_at": "2026-09-15T06:50:20Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/charles-001/dolphie/tarball/6.17.1",
-  "zipball_url": "https://api.github.com/repos/charles-001/dolphie/zipball/6.17.1",
-  "body": "## New Features\n\n- **Workload and Throughput graphs**: Dolphie now fetches the connection, slow query, select, sort, InnoDB row, network, InnoDB I/O, row lock, deadlock, and change buffer counters every poll and graphs them in new Workload and Throughput tabs. The Locks tab always shows, with row lock waits, average wait time, and lock failures, and the Disk I/O tab gains an InnoDB operations graph.\n- **Graph titles and controls**: Each graph is titled in a shared tab and its series controls sit in the graph's own cell.\n- **Data directory usage**: System utilization records `Datadir_Total`, `Datadir_Used`, and `Datadir_Mount`, read once per data directory at its mount point. Usage is left out when the data directory is not on the host Dolphie runs on.\n\n## Replay\n\n- **Row summaries** (`--replay-summary`, `replay_summary` in the config): The daemon stores a compact summary next to each row: every metric's latest value, status values, system utilization, lock states, replication state, and the age of the oldest thread. Dolphie rebuilds the graph window from summaries on a backward seek, and other tools draw timelines from `COALESCE(summary, data)` without decoding whole rows. About a kilobyte per row.\n- **Replay file layout documented**: The README now describes the SQLite tables, the compression dictionary, the summary contract, and the rules for reading a live file from another tool. A test keeps the README and the `SUMMARY_*` constants in step.\n- **WAL mode**: The daemon writes its file in WAL mode with `synchronous=NORMAL`: one fsync per checkpoint instead of four per poll, and a reader inside a query never blocks the daemon's commit. The WAL is checkpointed every 4 MB and truncated after each retention purge. Past a 64 MB WAL that a pinned reader keeps from checkpointing, the daemon pauses recording until the reader lets go, so disk use is bounded by retention plus the cap.\n- **Clean stops**: The daemon closes the replay file on SIGTERM and waits for a poll in flight, so `systemctl stop` is a clean stop. A stopped daemon's file is switched back to rollback-journal mode, so it opens read-only with no `-shm` from any directory and any SQLite version, including Jammy's 3.37.2. The daemon warns once when it recovers a `-wal` from an unclean stop and when the filesystem refuses WAL mode.\n- **UTC row timestamps**: Rows are stamped in UTC, so a file reads the same on any host and a DST change never steps the timeline back an hour. Each row also records `replay_polling_interval`, the seconds since the previous poll, so a reader can take its own rates. Files written before 6.17 hold the host's local time.\n- **Smaller rows**: Rows compress at zstd level 9, 7% smaller than before, and summaries join the prefix dictionary, which makes them 15% smaller again.\n- **Schema rotation keeps its sidecars straight**: The old file is closed before a schema change renames it, so its WAL sidecars do not end up under the new file's name.\n\n## Bug Fixes\n\n- **Replay file picker**: Load a Replay File lists only SQLite databases, so the `-wal` and `-shm` a recording daemon keeps beside `daemon.db` stay out of the list. A file the user cannot read is skipped instead of failing on open.\n- **Rate baseline after a failed poll**: The per-second rate baseline moves only after a poll that reached the metrics, so a poll that failed no longer produces a rate spike on the next one.\n- **Quieter daemon log**: The retention purge and the immutable-open fallback no longer log at INFO on every run.\n\n## Testing\n\n- Daemon replay integration tests cover WAL recovery, the pinned-reader cap, the SIGTERM close, and the summary column. Playback tests hold a key in a stalled CI loop without turning it into taps or a mid-scrub render. The snapshot report is uploaded when panel snapshots fail.\n\n## Dependency Updates\n\nNo dependency changes in this release.\n\n"
+  "tarball_url": "https://api.github.com/repos/charles-001/dolphie/tarball/6.18.0",
+  "zipball_url": "https://api.github.com/repos/charles-001/dolphie/zipball/6.18.0",
+  "body": "## Bug Fixes\n\n- **Disk IOPS counted once**: `Disk_Read` and `Disk_Write` sum the block devices that carry a mounted filesystem, each IO counted once. psutil's total counts an IO at a RAID or LVM device and again at each member under it, and adds every loop device, so on a RAID10 host with an LVM root it reported about five times the real write IOPS, and the multiple depended on the storage layout. On a platform whose counter names do not match its mount table, such as macOS, the total is used as before.\n- **Network throughput counted once**: `Network_Up` and `Network_Down` leave out loopback and any interface with a master (a bond or bridge member), whose bytes the master counts again. A bonded host reported twice its real throughput.\n- **CPU measured per instance**: `CPU_Percent` is computed from `psutil.cpu_times()` readings held on the Dolphie instance, with psutil's own arithmetic. `psutil.cpu_percent` keeps its baseline per thread, and a poll can run on any thread of the worker pool, so with a replicas worker or a second tab each thread measured a different window and started at 0. The first poll records no CPU value instead of psutil's meaningless 0, which readers of the raw sample plotted after every restart.\n- **No CPU smoothing**: A reading of 0 or 100 is kept as read. The extreme-value smoothing that replaced them with a recent mean hid a pegged host.\n\n## Testing\n\n- Tests cover stacked storage, the macOS counter fallback, bonded NICs, and CPU arithmetic on Linux, Windows, and macOS `cpu_times` tuples.\n\n## Dependency Updates\n\nNo dependency changes in this release.\n"
 }
