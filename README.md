@@ -4,7 +4,7 @@
 
 Your single pane of glass for real-time analytics into MySQL/MariaDB & ProxySQL
 
-[![x-cmd/install — dolphie Code Quality Monitoring Repo Card](https://repo.x-cmd.io/dolphie.svg)](https://x-cmd.com/install/dolphie)
+[![x-cmd/install — dolphie Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/dolphie.svg)](https://x-cmd.com/install/dolphie)
 
 ## Install
 
@@ -37,7 +37,7 @@ Total: **22,765** lines of code across **104** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,197 · **Forks**: 81 · **Open issues**: 81 · **Contributors**: 11
+- **Stars**: 1,198 · **Forks**: 81 · **Open issues**: 81 · **Contributors**: 11
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **22,765** lines of code across **104** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 3 | 4 | 0 | 0 | 0 | 8 |
-| last60d | 2026-07-24 | 3 | 5 | 0 | 0 | 0 | 10 |
-| 90d | 2026-06-24 | 3 | 6 | 0 | 0 | 0 | 10 |
-| last180d | 2026-03-26 | 4 | 8 | 0 | 1 | 0 | 22 |
-| 360d | 2025-09-27 | 16 | 8 | 0 | 10 | 0 | 65 |
-| last720d | 2024-10-02 | 35 | 21 | 0 | 35 | 1 | 140 |
+| 30d | 2026-08-24 | 3 | 4 | 0 | 0 | 0 | 8 |
+| last60d | 2026-07-25 | 3 | 5 | 0 | 0 | 0 | 10 |
+| 90d | 2026-06-25 | 3 | 6 | 0 | 0 | 0 | 10 |
+| last180d | 2026-03-27 | 4 | 8 | 0 | 1 | 0 | 22 |
+| 360d | 2025-09-28 | 16 | 8 | 0 | 10 | 0 | 65 |
+| last720d | 2024-10-03 | 35 | 21 | 0 | 35 | 1 | 140 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for dolphie lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:43:49Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:48:49Z._
