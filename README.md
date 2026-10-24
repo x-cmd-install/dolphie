@@ -37,7 +37,7 @@ Total: **22,765** lines of code across **104** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,201 · **Forks**: 82 · **Open issues**: 81 · **Contributors**: 10
+- **Stars**: 1,202 · **Forks**: 82 · **Open issues**: 81 · **Contributors**: 10
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **22,765** lines of code across **104** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-24 | 3 | 4 | 0 | 0 | 0 | 8 |
-| 90d | 2026-07-25 | 3 | 5 | 0 | 0 | 0 | 10 |
-| last180d | 2026-04-26 | 4 | 8 | 0 | 1 | 0 | 21 |
-| 360d | 2025-10-28 | 16 | 8 | 0 | 9 | 0 | 57 |
-| last720d | 2024-11-02 | 32 | 18 | 0 | 33 | 1 | 127 |
+| 30d | 2026-09-24 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-25 | 3 | 4 | 0 | 0 | 0 | 8 |
+| 90d | 2026-07-26 | 3 | 5 | 0 | 0 | 0 | 10 |
+| last180d | 2026-04-27 | 4 | 8 | 0 | 0 | 0 | 21 |
+| 360d | 2025-10-29 | 14 | 8 | 0 | 9 | 0 | 57 |
+| last720d | 2024-11-03 | 32 | 18 | 0 | 33 | 1 | 127 |
 
 ## Distribution status
 
@@ -71,4 +71,4 @@ Install metadata for dolphie lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:20:11Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:12:52Z._
