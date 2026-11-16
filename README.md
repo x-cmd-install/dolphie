@@ -47,12 +47,12 @@ Total: **22,765** lines of code across **104** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-17 | 3 | 4 | 0 | 0 | 0 | 9 |
-| last180d | 2026-05-19 | 4 | 7 | 0 | 0 | 0 | 17 |
-| 360d | 2025-11-20 | 13 | 8 | 0 | 6 | 0 | 48 |
-| last720d | 2024-11-25 | 29 | 16 | 0 | 29 | 1 | 118 |
+| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-18 | 3 | 4 | 0 | 0 | 0 | 9 |
+| last180d | 2026-05-20 | 4 | 7 | 0 | 0 | 0 | 17 |
+| 360d | 2025-11-21 | 13 | 8 | 0 | 6 | 0 | 48 |
+| last720d | 2024-11-26 | 29 | 16 | 0 | 29 | 1 | 118 |
 
 ## Distribution status
 
@@ -71,4 +71,4 @@ Install metadata for dolphie lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:17:01Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T07:33:45Z._
