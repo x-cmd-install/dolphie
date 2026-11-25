@@ -47,20 +47,12 @@ Total: **22,765** lines of code across **104** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 3 | 4 | 0 | 0 | 0 | 8 |
-| last180d | 2026-05-28 | 4 | 6 | 0 | 0 | 0 | 17 |
-| 360d | 2025-11-29 | 13 | 8 | 0 | 6 | 0 | 48 |
-| last720d | 2024-12-04 | 25 | 15 | 0 | 27 | 1 | 110 |
-
-## Distribution status
-
-Reported by **2** distros on [repology.org](https://repology.org/project/dolphie). **2** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Homebrew | `6.18.0` | ✅ latest |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 3 | 4 | 0 | 0 | 0 | 8 |
+| last180d | 2026-05-29 | 4 | 6 | 0 | 0 | 0 | 17 |
+| 360d | 2025-11-30 | 13 | 8 | 0 | 6 | 0 | 48 |
+| last720d | 2024-12-05 | 25 | 15 | 0 | 26 | 1 | 110 |
 
 ## Improve this data
 
@@ -71,4 +63,4 @@ Install metadata for dolphie lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:22:46Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:14:50Z._
